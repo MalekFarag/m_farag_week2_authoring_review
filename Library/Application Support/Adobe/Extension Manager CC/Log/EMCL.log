@@ -1,0 +1,9 @@
+08/28/19 14:32:45:059 | [ERROR] |  | exchangeplugin | EMCL |  |  |  | 5678 | CExtensionManager::createDBPath: makeWritableForAllUsers() failed, status = -163!
+08/28/19 14:32:45:965 | [ERROR] |  | exchangeplugin | EMCL |  |  |  | 5689 | CExtensionManager::downloadXManConfig: File End Check Failed
+08/28/19 15:30:19:864 | [ERROR] |  | exchangeplugin | EMCL |  |  |  | 6580 | CExtensionManager::createDBPath: makeWritableForAllUsers() failed, status = -163!
+08/28/19 15:30:21:023 | [ERROR] |  | exchangeplugin | EMCL |  |  |  | 6611 | CExtensionManager::downloadXManConfig: File End Check Failed
+08/28/19 16:54:43:951 | [ERROR] |  | exchangeplugin | EMCL |  |  |  | 4026 | CExtensionManager::createDBPath: makeWritableForAllUsers() failed, status = -163!
+08/28/19 16:54:54:215 | [ERROR] |  | exchangeplugin | EMCL |  |  |  | 4276 | CExtensionManager::createDBPath: makeWritableForAllUsers() failed, status = -163!
+08/28/19 16:55:08:558 | [ERROR] |  | exchangeplugin | EMCL |  |  |  | 4388 | CExtensionManager::downloadXManConfig: File End Check Failed
+09/09/19 16:55:36:210 | [ERROR] |  | exchangeplugin | EMCL |  |  |  | 131728 | CExtensionManager::createDBPath: makeWritableForAllUsers() failed, status = -163!
+09/09/19 16:55:36:675 | [ERROR] |  | exchangeplugin | EMCL |  |  |  | 131737 | CExtensionManager::downloadXManConfig: File End Check Failed

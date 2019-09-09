@@ -1,0 +1,1370 @@
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) VulcanWrapper > [DISK] Loading Vulcan Library...
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) VulcanWrapper > [DISK] Vulcan Library Successfully Loaded.
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) Main > [DISK] -------------------------Startup------------------------------
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) Main > [DISK] Build version is 3.0.1-1, Environment: Production
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) Main > [INFO] init
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) IMS > [ERROR] { Error: IMSError: [DEFAULT_USER_FOR_CLIENTID_NOT_PRESENT] Error returned if there is no default user for client_id
+    at Object.c.memoize ( main.js:19:26400)
+    at Object.r [as getUserInfo] ( main.js:19:17315)
+    at Object.getUserId ( main.js:19:29432)
+    at Object._ [as createPayload] ( main.js:19:32062)
+    at Object._ [as logProcessEvent] ( main.js:19:32904)
+    at u.post ( main.js:19:21612)
+    at p.info ( main.js:19:22637)
+    at t.exports.onLoadHouseKeeping ( main.js:19:81478)
+    at <anonymous>
+  underlyingError: 'Error fetching default user',
+  error_code: 'Unknown',
+  silent: false,
+  context: '',
+  headers: undefined,
+  payload: {} }
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) IMS > [DISK] Error fetching default user: IMSError: [DEFAULT_USER_FOR_CLIENTID_NOT_PRESENT] Error returned if there is no default user for client_id
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) CardLookupMap > [DISK] Failed to load lookup file from disk: map.json - Error: ENOENT: no such file or directory, open ' map.json'
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) CardLookupMap > [DISK] Empty lookup file: map.json
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) StockLookupMap > [DISK] Failed to load lookup file from disk: map.json - Error: ENOENT: no such file or directory, open ' map.json'
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) StockLookupMap > [DISK] Empty lookup file: map.json
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) LearnLookupMap > [DISK] Failed to load lookup file from disk: map.json - Error: ENOENT: no such file or directory, open ' map.json'
+Wed Aug 28 2019 14:32:56 GMT-0400 (EDT) LearnLookupMap > [DISK] Empty lookup file: map.json
+Wed Aug 28 2019 14:32:57 GMT-0400 (EDT) Proxy > [DISK] Got 174 certificates
+Wed Aug 28 2019 14:32:57 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.app.ProxySettingsRequest
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) VulcanWrapper > [DISK] <- ADCS 4.8.2: accc.app.ProxySettingsResponse
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CCNotifications > [DISK] GetProxySettings - Successfully obtained username/password
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.app.UserContextDataRequest
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) VulcanWrapper > [DISK] <- ADCS 4.8.2: adbproduct.app.UserContextDataResponse
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CCNotifications > [DISK] User sign in pending. Analytics flag not received yet.
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) VulcanWrapper > [DISK] -> BROADCAST: ccxprocess.Initialized
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) Main > [INFO] start
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.notifications
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.notifications
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  AEFT 16.1.2
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  DRWV 19.2.0.11274
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  IDSN 14.0.2.324
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  ILST 23.0.4
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  PHXS 20.0.5
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  PPRO 13.1.3
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > STOCK[DISK] App NOT found, Adding :  IDSN 14.0.2.324
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > STOCK[DISK] App NOT found, Adding :  ILST 23.0.4
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > STOCK[DISK] App NOT found, Adding :  PHXS 20.0.5
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  AEFT 16.1.2
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  DRWV 19.2.0.11274
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  IDSN 14.0.2.324
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  ILST 23.0.4
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  PHXS 20.0.5
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  PPRO 13.1.3
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T18:36:58.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 368494ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T18:36:58.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 257580ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T18:36:58.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 877248ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T18:36:58.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 972032ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:36:58.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 431318ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:36:58.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 311059ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product ILST[23.0.4]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:36:58.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 609173ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product ILST[23.0.4]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:36:58.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 270978ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:36:58.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 1024933ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:36:58.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 338608ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T18:36:58.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 521311ms
+Wed Aug 28 2019 14:32:58 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T18:36:59.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 371956ms
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) StockLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:36:59.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 934384ms
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) StockLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product ILST[23.0.4]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:36:59.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 584600ms
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) StockLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:36:59.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 493817ms
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T18:36:59.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 729552ms
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T18:36:59.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 585524ms
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:36:59.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 852245ms
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product ILST[23.0.4]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:36:59.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 924825ms
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:36:59.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 1094599ms
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T18:36:59.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:32:59 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 446212ms
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T18:43:11.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T18:43:11.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T18:43:11.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T18:43:11.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:43:11.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:43:11.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:43:11.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:43:11.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:43:11.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:43:11.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T18:43:11.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T18:43:11.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:39:11 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 870242ms
+Wed Aug 28 2019 14:40:25 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T18:44:25.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:40:25 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T18:44:25.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:40:25 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:44:25.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:40:25 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:44:25.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:40:25 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:44:25.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:40:25 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T18:44:25.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:40:25 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 773239ms
+Wed Aug 28 2019 14:41:12 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:45:12.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:41:12 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:45:12.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:41:12 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:45:12.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:41:12 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 287029ms
+Wed Aug 28 2019 14:45:59 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:49:59.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:45:59 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:49:59.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:45:59 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:49:59.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:45:59 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 896828ms
+Wed Aug 28 2019 14:53:18 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T18:57:18.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:53:18 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T18:57:18.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:53:18 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:57:18.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:53:18 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:57:18.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:53:18 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:57:18.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:53:18 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T18:57:18.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:53:18 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 563885ms
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T18:57:41.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T18:57:41.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T18:57:41.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T18:57:41.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:57:41.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T18:57:41.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:57:41.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T18:57:41.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:57:41.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T18:57:41.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T18:57:41.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T18:57:41.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 14:53:41 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 1063499ms
+Wed Aug 28 2019 15:00:56 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T19:04:56.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 15:00:56 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T19:04:56.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 15:00:56 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T19:04:56.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 15:00:56 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 447098ms
+Wed Aug 28 2019 15:02:42 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T19:06:42.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 15:02:42 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T19:06:42.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 15:02:42 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T19:06:42.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 15:02:42 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T19:06:42.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 15:02:42 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T19:06:42.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 15:02:42 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T19:06:42.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 15:02:42 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 788514ms
+Wed Aug 28 2019 15:08:24 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T19:12:24.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 15:08:24 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T19:12:24.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 15:08:24 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T19:12:24.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 15:08:24 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 647404ms
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T19:15:25.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-08-28T19:15:25.000Z  for product AEFT[16.1.2]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T19:15:25.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-08-28T19:15:25.000Z  for product DRWV[19.2.0.11274]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T19:15:25.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-08-28T19:15:25.000Z  for product IDSN[14.0.2.324]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T19:15:25.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-08-28T19:15:25.000Z  for product ILST[23.0.4]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T19:15:25.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-08-28T19:15:25.000Z  for product PHXS[20.0.5]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T19:15:25.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-08-28T19:15:25.000Z  for product PPRO[13.1.3]
+Wed Aug 28 2019 15:11:25 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 501195ms
+Wed Aug 28 2019 15:30:27 GMT-0400 (EDT) VulcanWrapper > [DISK] Loading Vulcan Library...
+Wed Aug 28 2019 15:30:27 GMT-0400 (EDT) VulcanWrapper > [DISK] Vulcan Library Successfully Loaded.
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) Main > [DISK] -------------------------Startup------------------------------
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) Main > [DISK] Build version is 3.0.1-1, Environment: Production
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) Main > [INFO] init
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) IMS > [ERROR] { Error: IMSError: [DEFAULT_USER_FOR_CLIENTID_NOT_PRESENT] Error returned if there is no default user for client_id
+    at Object.c.memoize ( main.js:19:26400)
+    at Object.r [as getUserInfo] ( main.js:19:17315)
+    at Object.getUserId ( main.js:19:29432)
+    at Object._ [as createPayload] ( main.js:19:32062)
+    at Object._ [as logProcessEvent] ( main.js:19:32904)
+    at u.post ( main.js:19:21612)
+    at p.info ( main.js:19:22637)
+    at t.exports.onLoadHouseKeeping ( main.js:19:81478)
+    at <anonymous>
+  underlyingError: 'Error fetching default user',
+  error_code: 'Unknown',
+  silent: false,
+  context: '',
+  headers: undefined,
+  payload: {} }
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) IMS > [DISK] Error fetching default user: IMSError: [DEFAULT_USER_FOR_CLIENTID_NOT_PRESENT] Error returned if there is no default user for client_id
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) Proxy > [DISK] Got 174 certificates
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.app.ProxySettingsRequest
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) VulcanWrapper > [DISK] <- ADCS 4.8.2: accc.app.ProxySettingsResponse
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) CCNotifications > [DISK] GetProxySettings - Successfully obtained username/password
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.app.UserContextDataRequest
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) VulcanWrapper > [DISK] <- ADCS 4.8.2: adbproduct.app.UserContextDataResponse
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) CCNotifications > [DISK] User sign in pending. Analytics flag not received yet.
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) VulcanWrapper > [DISK] -> BROADCAST: ccxprocess.Initialized
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) Main > [INFO] start
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.notifications
+Wed Aug 28 2019 15:30:28 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.notifications
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) VulcanWrapper > [DISK] Loading Vulcan Library...
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) VulcanWrapper > [DISK] Vulcan Library Successfully Loaded.
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) Main > [DISK] -------------------------Startup------------------------------
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) Main > [DISK] Build version is 3.0.1-1, Environment: Production
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) Main > [INFO] init
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) IMS > [ERROR] { Error: IMSError: [DEFAULT_USER_FOR_CLIENTID_NOT_PRESENT] Error returned if there is no default user for client_id
+    at Object.c.memoize ( main.js:19:26400)
+    at Object.r [as getUserInfo] ( main.js:19:17315)
+    at Object.getUserId ( main.js:19:29432)
+    at Object._ [as createPayload] ( main.js:19:32062)
+    at Object._ [as logProcessEvent] ( main.js:19:32904)
+    at u.post ( main.js:19:21612)
+    at p.info ( main.js:19:22637)
+    at t.exports.onLoadHouseKeeping ( main.js:19:81478)
+    at <anonymous>
+  underlyingError: 'Error fetching default user',
+  error_code: 'Unknown',
+  silent: false,
+  context: '',
+  headers: undefined,
+  payload: {} }
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) IMS > [DISK] Error fetching default user: IMSError: [DEFAULT_USER_FOR_CLIENTID_NOT_PRESENT] Error returned if there is no default user for client_id
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) Proxy > [DISK] Got 174 certificates
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.app.ProxySettingsRequest
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) VulcanWrapper > [DISK] <- ADCS 4.8.2: accc.app.ProxySettingsResponse
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) CCNotifications > [DISK] GetProxySettings - Successfully obtained username/password
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.app.UserContextDataRequest
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) VulcanWrapper > [DISK] <- ADCS 4.8.2: adbproduct.app.UserContextDataResponse
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) CCNotifications > [DISK] User sign in pending. Analytics flag not received yet.
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) VulcanWrapper > [DISK] -> BROADCAST: ccxprocess.Initialized
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) Main > [INFO] start
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.notifications
+Wed Aug 28 2019 16:55:21 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.notifications
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) VulcanWrapper > [DISK] Loading Vulcan Library...
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) VulcanWrapper > [DISK] Vulcan Library Successfully Loaded.
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) Main > [DISK] -------------------------Startup------------------------------
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) Main > [DISK] Build version is 3.0.1-1, Environment: Production
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) Main > [INFO] init
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) IMS > [ERROR] { Error: IMSError: [DEFAULT_USER_FOR_CLIENTID_NOT_PRESENT] Error returned if there is no default user for client_id
+    at Object.c.memoize ( main.js:19:26400)
+    at Object.r [as getUserInfo] ( main.js:19:17315)
+    at Object.getUserId ( main.js:19:29432)
+    at Object._ [as createPayload] ( main.js:19:32062)
+    at Object._ [as logProcessEvent] ( main.js:19:32904)
+    at u.post ( main.js:19:21612)
+    at p.info ( main.js:19:22637)
+    at t.exports.onLoadHouseKeeping ( main.js:19:81478)
+    at <anonymous>
+  underlyingError: 'Error fetching default user',
+  error_code: 'Unknown',
+  silent: false,
+  context: '',
+  headers: undefined,
+  payload: {} }
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) IMS > [DISK] Error fetching default user: IMSError: [DEFAULT_USER_FOR_CLIENTID_NOT_PRESENT] Error returned if there is no default user for client_id
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [DISK] Failed to load lookup file from disk: map.json - Error: ENOENT: no such file or directory, open ' map.json'
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [DISK] Empty lookup file: map.json
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) StockLookupMap > [DISK] Failed to load lookup file from disk: map.json - Error: ENOENT: no such file or directory, open ' map.json'
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) StockLookupMap > [DISK] Empty lookup file: map.json
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LearnLookupMap > [DISK] Failed to load lookup file from disk: map.json - Error: ENOENT: no such file or directory, open ' map.json'
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LearnLookupMap > [DISK] Empty lookup file: map.json
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) Proxy > [DISK] Got 174 certificates
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.app.ProxySettingsRequest
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) VulcanWrapper > [DISK] <- ADCS 4.9.0: accc.app.ProxySettingsResponse
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CCNotifications > [DISK] GetProxySettings - Successfully obtained username/password
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.app.UserContextDataRequest
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) VulcanWrapper > [DISK] <- ADCS 4.9.0: adbproduct.app.UserContextDataResponse
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CCNotifications > [DISK] User sign in pending. Analytics flag not received yet.
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) VulcanWrapper > [DISK] -> BROADCAST: ccxprocess.Initialized
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) Main > [INFO] start
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.notifications
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) VulcanWrapper > [DISK] -> ADCS *: accc.notifications
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  AEFT 16.1.2
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  DRWV 19.2.0.11274
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  IDSN 14.0.2.324
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  ILST 23.0.4
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  PHXS 20.0.5
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > SOPHIA[DISK] App NOT found, Adding :  PPRO 13.1.3
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > STOCK[DISK] App NOT found, Adding :  IDSN 14.0.2.324
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > STOCK[DISK] App NOT found, Adding :  ILST 23.0.4
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > STOCK[DISK] App NOT found, Adding :  PHXS 20.0.5
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  AEFT 16.1.2
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  DRWV 19.2.0.11274
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  IDSN 14.0.2.324
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  ILST 23.0.4
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  PHXS 20.0.5
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) LookupMapUtils > LEARN[DISK] App NOT found, Adding :  PPRO 13.1.3
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product AEFT[16.1.2]
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-09-09T21:01:09.000Z  for product AEFT[16.1.2]
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 990757ms
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product AEFT[16.1.2]
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-09-09T21:01:09.000Z  for product AEFT[16.1.2]
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 496864ms
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product DRWV[19.2.0.11274]
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-09-09T21:01:09.000Z  for product DRWV[19.2.0.11274]
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 286557ms
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product DRWV[19.2.0.11274]
+Mon Sep 09 2019 16:57:09 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-09-09T21:01:09.000Z  for product DRWV[19.2.0.11274]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 435930ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-09-09T21:01:10.000Z  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 495851ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-09-09T21:01:10.000Z  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 1038082ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product ILST[23.0.4]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-09-09T21:01:10.000Z  for product ILST[23.0.4]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 267607ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product ILST[23.0.4]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-09-09T21:01:10.000Z  for product ILST[23.0.4]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 769916ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PHXS[20.0.5]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-09-09T21:01:10.000Z  for product PHXS[20.0.5]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 270085ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PHXS[20.0.5]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-09-09T21:01:10.000Z  for product PHXS[20.0.5]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 455479ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PPRO[13.1.3]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-09-09T21:01:10.000Z  for product PPRO[13.1.3]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 835214ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PPRO[13.1.3]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-09-09T21:01:10.000Z  for product PPRO[13.1.3]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 949864ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) StockLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-09-09T21:01:10.000Z  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 729945ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) StockLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product ILST[23.0.4]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-09-09T21:01:10.000Z  for product ILST[23.0.4]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 700398ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) StockLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at t.exports._fetchCollectionDataRaw ( main.js:19:49158)
+    at t.exports.r [as _fetchCollectionData] ( main.js:19:17315)
+    at t.exports.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PHXS[20.0.5]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-09-09T21:01:10.000Z  for product PHXS[20.0.5]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 428222ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product AEFT[16.1.2]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-09-09T21:01:10.000Z  for product AEFT[16.1.2]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 931282ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product DRWV[19.2.0.11274]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-09-09T21:01:10.000Z  for product DRWV[19.2.0.11274]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 742070ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-09-09T21:01:10.000Z  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 903466ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product ILST[23.0.4]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-09-09T21:01:10.000Z  for product ILST[23.0.4]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 313435ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PHXS[20.0.5]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-09-09T21:01:10.000Z  for product PHXS[20.0.5]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 465583ms
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] { Error: signed out
+    at Object._syncLock.read [as callback] ( main.js:19:49197)
+    at r.call ( main.js:19:61576)
+    at r.checkReads ( main.js:19:61913)
+    at r.check ( main.js:19:62030)
+    at Promise ( main.js:19:62327)
+    at new Promise (<anonymous>)
+    at read ( main.js:19:62235)
+    at E._fetchCollectionDataRaw ( main.js:19:49158)
+    at E.r [as _fetchCollectionData] ( main.js:19:17315)
+    at E.addNewCollectionData ( main.js:19:57595)
+    at Promise.all.t.updateParams.map ( main.js:19:78240)
+    at Array.map (<anonymous>)
+    at Promise.all.maps.map ( main.js:19:78219)
+    at Array.map (<anonymous>)
+    at t.exports.updateLookupMapWithInstalledApps ( main.js:19:78134)
+    at t.exports.init ( main.js:19:82500)
+    at <anonymous>
+  underlyingError: undefined,
+  error_code: 'Unknown',
+  silent: true,
+  context: '',
+  headers: undefined,
+  payload: {} } Error adding new collection  for product PPRO[13.1.3]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-09-09T21:01:10.000Z  for product PPRO[13.1.3]
+Mon Sep 09 2019 16:57:10 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 1076569ms
+Mon Sep 09 2019 17:04:18 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-09-09T21:08:18.000Z  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 17:04:18 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-09-09T21:08:18.000Z  for product ILST[23.0.4]
+Mon Sep 09 2019 17:04:18 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-09-09T21:08:18.000Z  for product PHXS[20.0.5]
+Mon Sep 09 2019 17:04:18 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 988293ms
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-09-09T21:17:00.000Z  for product AEFT[16.1.2]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-09-09T21:17:00.000Z  for product AEFT[16.1.2]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-09-09T21:17:00.000Z  for product DRWV[19.2.0.11274]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-09-09T21:17:00.000Z  for product DRWV[19.2.0.11274]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-09-09T21:17:00.000Z  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-09-09T21:17:00.000Z  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-09-09T21:17:00.000Z  for product ILST[23.0.4]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-09-09T21:17:00.000Z  for product ILST[23.0.4]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-09-09T21:17:00.000Z  for product PHXS[20.0.5]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-09-09T21:17:00.000Z  for product PHXS[20.0.5]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-09-09T21:17:00.000Z  for product PPRO[13.1.3]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-09-09T21:17:00.000Z  for product PPRO[13.1.3]
+Mon Sep 09 2019 17:13:00 GMT-0400 (EDT) CardLookupMap > [DISK] Scheduling next sync in 648799ms
+Mon Sep 09 2019 17:15:06 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for AEFT[en_US] - 2019-09-09T21:19:06.000Z  for product AEFT[16.1.2]
+Mon Sep 09 2019 17:15:06 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for DRWV[en_US] - 2019-09-09T21:19:06.000Z  for product DRWV[19.2.0.11274]
+Mon Sep 09 2019 17:15:06 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-09-09T21:19:06.000Z  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 17:15:06 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-09-09T21:19:06.000Z  for product ILST[23.0.4]
+Mon Sep 09 2019 17:15:06 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-09-09T21:19:06.000Z  for product PHXS[20.0.5]
+Mon Sep 09 2019 17:15:06 GMT-0400 (EDT) LearnLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PPRO[en_US] - 2019-09-09T21:19:06.000Z  for product PPRO[13.1.3]
+Mon Sep 09 2019 17:15:06 GMT-0400 (EDT) LearnLookupMap > [DISK] Scheduling next sync in 687988ms
+Mon Sep 09 2019 17:20:46 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for IDSN[en_US] - 2019-09-09T21:24:46.000Z  for product IDSN[14.0.2.324]
+Mon Sep 09 2019 17:20:46 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for ILST[en_US] - 2019-09-09T21:24:46.000Z  for product ILST[23.0.4]
+Mon Sep 09 2019 17:20:46 GMT-0400 (EDT) StockLookupMap > [INFO] Missing Data Scheduling with expired data. Add back-off for PHXS[en_US] - 2019-09-09T21:24:46.000Z  for product PHXS[20.0.5]
+Mon Sep 09 2019 17:20:46 GMT-0400 (EDT) StockLookupMap > [DISK] Scheduling next sync in 368471ms

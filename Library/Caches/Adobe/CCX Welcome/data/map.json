@@ -1,0 +1,241 @@
+{
+  "version": 5,
+  "versionInfo": {
+    "undefined": {
+      "V2_5": {
+        "AEFT": {
+          "16": {
+            "en_US": {
+              "trial": {
+                "pendingId": "AEFT-16.1.2-en_US-trial-08a1508e-7e09-40fe-a4b2-0bc6aa186a55"
+              },
+              "paid": {
+                "pendingId": "AEFT-16.1.2-en_US-paid-dc161941-43fe-4aad-878e-2a0fe3aadaa1"
+              }
+            }
+          }
+        },
+        "DRWV": {
+          "19": {
+            "en_US": {
+              "trial": {
+                "pendingId": "DRWV-19.2.0.11274-en_US-trial-b9b65f60-1457-4281-8819-bd899401c6f9"
+              },
+              "paid": {
+                "pendingId": "DRWV-19.2.0.11274-en_US-paid-a6ed2afe-c8a3-4670-b8eb-cbbd3ecaca54"
+              }
+            }
+          }
+        },
+        "IDSN": {
+          "14": {
+            "en_US": {
+              "trial": {
+                "pendingId": "IDSN-14.0.2.324-en_US-trial-4de78bb1-45be-4c08-bd2e-b92093ed6118"
+              },
+              "paid": {
+                "pendingId": "IDSN-14.0.2.324-en_US-paid-7b8666ad-aa43-4471-9c1e-a2a37db9d4d8"
+              }
+            }
+          }
+        },
+        "ILST": {
+          "23": {
+            "en_US": {
+              "trial": {
+                "pendingId": "ILST-23.0.4-en_US-trial-3677d4b5-41e0-4946-98f8-47128c78d2a0"
+              },
+              "paid": {
+                "pendingId": "ILST-23.0.4-en_US-paid-e1ed5b8f-7423-4d9d-88e1-03ce250ce3c5"
+              }
+            }
+          }
+        },
+        "PHXS": {
+          "20": {
+            "en_US": {
+              "trial": {
+                "pendingId": "PHXS-20.0.5-en_US-trial-9d0af7da-5102-4725-a94c-77f69f93da64"
+              },
+              "paid": {
+                "pendingId": "PHXS-20.0.5-en_US-paid-11b0df12-7b31-480b-81e0-f8cc95a23061"
+              }
+            }
+          }
+        },
+        "PPRO": {
+          "13": {
+            "en_US": {
+              "trial": {
+                "pendingId": "PPRO-13.1.3-en_US-trial-828f961f-abe5-4d6a-bf84-3b42f889349e"
+              },
+              "paid": {
+                "pendingId": "PPRO-13.1.3-en_US-paid-1efbcee6-7b52-4bad-9319-cb1adb46bd6a"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "metadata": {
+    "AEFT-16.1.2-en_US-trial-08a1508e-7e09-40fe-a4b2-0bc6aa186a55": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.735Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "AEFT",
+        "productVersion": "16.1.2",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "trial",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "AEFT-16.1.2-en_US-paid-dc161941-43fe-4aad-878e-2a0fe3aadaa1": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.744Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "AEFT",
+        "productVersion": "16.1.2",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "paid",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "DRWV-19.2.0.11274-en_US-trial-b9b65f60-1457-4281-8819-bd899401c6f9": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.751Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "DRWV",
+        "productVersion": "19.2.0.11274",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "trial",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "DRWV-19.2.0.11274-en_US-paid-a6ed2afe-c8a3-4670-b8eb-cbbd3ecaca54": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.759Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "DRWV",
+        "productVersion": "19.2.0.11274",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "paid",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "IDSN-14.0.2.324-en_US-trial-4de78bb1-45be-4c08-bd2e-b92093ed6118": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.766Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "IDSN",
+        "productVersion": "14.0.2.324",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "trial",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "IDSN-14.0.2.324-en_US-paid-7b8666ad-aa43-4471-9c1e-a2a37db9d4d8": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.774Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "IDSN",
+        "productVersion": "14.0.2.324",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "paid",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "ILST-23.0.4-en_US-trial-3677d4b5-41e0-4946-98f8-47128c78d2a0": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.782Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "ILST",
+        "productVersion": "23.0.4",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "trial",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "ILST-23.0.4-en_US-paid-e1ed5b8f-7423-4d9d-88e1-03ce250ce3c5": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.789Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "ILST",
+        "productVersion": "23.0.4",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "paid",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "PHXS-20.0.5-en_US-trial-9d0af7da-5102-4725-a94c-77f69f93da64": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.797Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "PHXS",
+        "productVersion": "20.0.5",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "trial",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "PHXS-20.0.5-en_US-paid-11b0df12-7b31-480b-81e0-f8cc95a23061": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.804Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "PHXS",
+        "productVersion": "20.0.5",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "paid",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "PPRO-13.1.3-en_US-trial-828f961f-abe5-4d6a-bf84-3b42f889349e": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.812Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "PPRO",
+        "productVersion": "13.1.3",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "trial",
+        "ccxVersion": "2.7.1.2"
+      }
+    },
+    "PPRO-13.1.3-en_US-paid-1efbcee6-7b52-4bad-9319-cb1adb46bd6a": {
+      "expiryTime": "2019-09-09T21:17:00.000Z",
+      "lastUseTime": "2019-09-09T20:57:09.821Z",
+      "cause": "Unknown",
+      "params": {
+        "productCode": "PPRO",
+        "productVersion": "13.1.3",
+        "productLanguage": "en_US",
+        "countryCode": "US",
+        "subscriptionStatus": "paid",
+        "ccxVersion": "2.7.1.2"
+      }
+    }
+  },
+  "assetMetadata": {},
+  "usersInfo": {}
+}

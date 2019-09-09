@@ -1,0 +1,174 @@
+{
+   "checksum": "fcec82c00b0686ac65980301fc99be91",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13150823364714527",
+            "id": "5",
+            "meta_info": {
+               "last_visited": "13204573174289700",
+               "last_visited_desktop": "13200019369273800"
+            },
+            "name": "YouTube to mp3",
+            "sync_transaction_version": "12",
+            "type": "url",
+            "url": "https://ytmp3.cc/"
+         }, {
+            "date_added": "13180764249437150",
+            "id": "6",
+            "meta_info": {
+               "last_visited": "13202710881398512",
+               "last_visited_desktop": "13202716110779358"
+            },
+            "name": "Homepage - Fanshawe College",
+            "sync_transaction_version": "23",
+            "type": "url",
+            "url": "https://www.fanshaweonline.ca/d2l/home"
+         }, {
+            "date_added": "13195430669829331",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13199744452664950"
+            },
+            "name": "Spotify",
+            "sync_transaction_version": "14",
+            "type": "url",
+            "url": "https://open.spotify.com/browse/featured?_ga=2.79095504.570654771.1550957062-1046993397.1550957062"
+         }, {
+            "date_added": "13185413494405039",
+            "id": "8",
+            "meta_info": {
+               "last_visited_desktop": "13197526266365856"
+            },
+            "name": "Color Pallets",
+            "sync_transaction_version": "15",
+            "type": "url",
+            "url": "https://coolors.co/2d2d2a-353831-38423b-3f5e5a-20fc8f"
+         }, {
+            "date_added": "13186167726274761",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13205273144391838"
+            },
+            "name": "Flexbox Cheatsheet",
+            "sync_transaction_version": "16",
+            "type": "url",
+            "url": "https://yoksel.github.io/flex-cheatsheet/#justify-content"
+         }, {
+            "date_added": "13192825030987678",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13192825030988508"
+            },
+            "name": "HTML5 Please - Use the new and shiny responsibly",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://html5please.com/"
+         }, {
+            "date_added": "13192825878278445",
+            "id": "11",
+            "meta_info": {
+               "last_visited_desktop": "13192825878279522"
+            },
+            "name": "Gradient Generator",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.colorzilla.com/gradient-editor/"
+         }, {
+            "date_added": "13192830844623672",
+            "id": "12",
+            "meta_info": {
+               "last_visited_desktop": "13196911578137973"
+            },
+            "name": "Easing Functions CSS",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://easings.net/"
+         }, {
+            "date_added": "13193948235153797",
+            "id": "13",
+            "meta_info": {
+               "last_visited_desktop": "13193948235154524"
+            },
+            "name": "Transfonter — online @font-face generator",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://transfonter.org/"
+         }, {
+            "date_added": "13203118485756270",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13206593681056624"
+            },
+            "name": "scotiabank stock - Google Search",
+            "sync_transaction_version": "17",
+            "type": "url",
+            "url": "https://www.google.com/search?q=scotiabank+stock&rlz=1C1CHBF_enCA811CA811&oq=scotiabank+&aqs=chrome.0.0l3j69i57j0l2.3159j1j7&sourceid=chrome&ie=UTF-8"
+         }, {
+            "date_added": "13195941527723412",
+            "id": "15",
+            "meta_info": {
+               "last_visited_desktop": "13198805649428151"
+            },
+            "name": "HTML Drag and Drop API - Web APIs | MDN",
+            "sync_transaction_version": "18",
+            "type": "url",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API"
+         }, {
+            "date_added": "13193114320298926",
+            "id": "16",
+            "meta_info": {
+               "last_visited": "13194859145507762",
+               "last_visited_desktop": "13197439840633749"
+            },
+            "name": "Quora",
+            "sync_transaction_version": "19",
+            "type": "url",
+            "url": "https://www.quora.com/"
+         }, {
+            "date_added": "13196460327702005",
+            "id": "17",
+            "meta_info": {
+               "last_visited_desktop": "13198608314509651"
+            },
+            "name": "ReadMe .md - Cheat Sheet",
+            "sync_transaction_version": "20",
+            "type": "url",
+            "url": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
+         }, {
+            "date_added": "13199306694345950",
+            "id": "18",
+            "meta_info": {
+               "last_visited_desktop": "13199306694346161"
+            },
+            "name": "Box Shadow CSS Generator | CSSmatic",
+            "sync_transaction_version": "21",
+            "type": "url",
+            "url": "https://www.cssmatic.com/box-shadow"
+         } ],
+         "date_added": "13212536146402117",
+         "date_modified": "13203118485756270",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13212536146404150",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "23",
+      "synced": {
+         "children": [  ],
+         "date_added": "13212536146404157",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

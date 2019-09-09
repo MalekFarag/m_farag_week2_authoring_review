@@ -1,0 +1,100 @@
+08-28-19,18:32:34.337,1,11826a5c0,,UpdateManager.mm(163),0,0,NRM,--------------------------------------------------------------------
+08-28-19,18:32:34.337,2,11826a5c0,,UpdateManager.mm(164),0,0,NRM,OneDriveUpdater (version 19070.0410.0009) started up, initialized logging.
+08-28-19,18:32:34.337,3,11826a5c0,,UpdateManager.mm(214),0,0,ERR,App at /Applications/OneDrive.app is not writable to the user
+08-28-19,18:32:34.401,4,11826a5c0,,UpdaterDaemonProxy.m(38),0,0,VRB,Initializing XPC connection with Mach Service Name: com.microsoft.OneDriveStandaloneUpdaterDaemon
+08-28-19,18:32:34.402,5,11826a5c0,,UpdateManager.mm(398),0,0,VRB,Performing Update...
+08-28-19,18:32:34.404,6,70000478f000,,UpdateManager.mm(475),0,0,VRB,UpdateRing determination info. isMsftInternal:false isOfficeInternal:false isOfficeExternal:false isOfficeInsidersFast:false isOfficeInsiderFast:false
+08-28-19,18:32:34.404,7,70000478f000,,UpdateManager.mm(475),0,0,VRB,UpdateRing determination info. isFasterRingChecked:false
+08-28-19,18:32:34.404,8,70000478f000,,UpdateURLDetector.mm(38),0,0,NRM,Detecting url for ring: 5 for StandaloneUpdater
+08-28-19,18:32:34.404,9,70000478f000,,UpdateURLDetector.mm(81),0,0,NRM,Using URL: https://g.live.com/0USSDMC_W5T/MacODSUProduction
+08-28-19,18:32:34.404,a,70000478f000,,CheckUpdateOperation.m(150),0,0,VRB,Starting periodic check for updates...
+08-28-19,18:32:34.405,b,70000478f000,,CheckUpdateOperation.m(167),0,0,VRB,Current version : 19.070.0410.0009
+08-28-19,18:32:34.407,c,70000478f000,,DownloadUpdateOperation.m(127),0,0,VRB,Started downloading... : https://g.live.com/0USSDMC_W5T/MacODSUProduction to /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/OneDriveVersion.xml
+08-28-19,18:32:34.655,d,70000478f000,,DownloadUpdateOperation.m(138),0,0,VRB,Received server response : url: https://oneclient.sfx.ms/Mac/Prod/19.033.0218.0013/update100.xml, data size: 1081 bytes
+08-28-19,18:32:34.656,e,70000478f000,,DownloadUpdateOperation.m(132),0,0,VRB,UpdaterDownload : created destination : /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/OneDriveVersion.xml
+08-28-19,18:32:34.656,f,70000478f000,,DownloadUpdateOperation.m(103),0,0,VRB,Finished downloaded https://g.live.com/0USSDMC_W5T/MacODSUProduction
+08-28-19,18:32:34.657,10,70000478f000,,CheckUpdateOperation.m(216),0,0,VRB,Parsing RootManifestVersion 1
+08-28-19,18:32:34.657,11,70000478f000,,CheckUpdateOperation.m(239),0,0,VRB,Current entry, Throttle:100.000000, minApplicable:17.003.6389.0225, maxApplicable:19.999.9999.9999
+08-28-19,18:32:34.657,12,70000478f000,,CheckUpdateOperation.m(80),0,0,VRB,Online version : 19.033.0218.0013
+08-28-19,18:32:34.657,13,70000478f000,,CheckUpdateOperation.m(88),0,0,VRB,Minimum required version : 17.000.5001.0225
+08-28-19,18:32:34.657,14,70000478f000,,CheckUpdateOperation.m(131),0,0,VRB,Current Update period : 86400 seconds
+08-28-19,18:32:34.657,15,70000478f000,,CheckUpdateOperation.m(141),0,0,VRB,Binary url : https://oneclient.sfx.ms/Mac/Prod/19.033.0218.0013/OneDrive.zip
+08-28-19,18:32:34.657,16,70000478f000,,CheckUpdateOperation.m(142),0,0,VRB,Sha1 hash : d47763437726533664ad568bedcdaa4727af5c44
+08-28-19,18:32:34.657,17,70000478f000,,CheckUpdateOperation.m(143),0,0,VRB,Update period : 1440 minutes
+08-28-19,18:32:34.657,18,11826a5c0,,UpdateManager.mm(590),0,0,VRB,No update available at this time.
+08-28-19,18:32:35.688,19,11826a5c0,,UpdateManager.mm(424),0,0,VRB,Updater exits
+08-28-19,19:30:05.954,1,10a1ad5c0,,UpdateManager.mm(163),0,0,NRM,--------------------------------------------------------------------
+08-28-19,19:30:05.988,2,10a1ad5c0,,UpdateManager.mm(164),0,0,NRM,OneDriveUpdater (version 19070.0410.0009) started up, initialized logging.
+08-28-19,19:30:05.988,3,10a1ad5c0,,UpdateManager.mm(214),0,0,ERR,App at /Applications/OneDrive.app is not writable to the user
+08-28-19,19:30:05.995,4,10a1ad5c0,,UpdaterDaemonProxy.m(38),0,0,VRB,Initializing XPC connection with Mach Service Name: com.microsoft.OneDriveStandaloneUpdaterDaemon
+08-28-19,19:30:05.996,5,10a1ad5c0,,UpdateManager.mm(398),0,0,VRB,Performing Update...
+08-28-19,19:30:05.998,6,700008216000,,UpdateManager.mm(475),0,0,VRB,UpdateRing determination info. isMsftInternal:false isOfficeInternal:false isOfficeExternal:false isOfficeInsidersFast:false isOfficeInsiderFast:false
+08-28-19,19:30:05.998,7,700008216000,,UpdateManager.mm(475),0,0,VRB,UpdateRing determination info. isFasterRingChecked:false
+08-28-19,19:30:05.998,8,700008216000,,UpdateURLDetector.mm(38),0,0,NRM,Detecting url for ring: 5 for StandaloneUpdater
+08-28-19,19:30:05.998,9,700008216000,,UpdateURLDetector.mm(81),0,0,NRM,Using URL: https://g.live.com/0USSDMC_W5T/MacODSUProduction
+08-28-19,19:30:05.999,a,700008216000,,CheckUpdateOperation.m(150),0,0,VRB,Starting periodic check for updates...
+08-28-19,19:30:05.999,b,700008216000,,CheckUpdateOperation.m(167),0,0,VRB,Current version : 19.070.0410.0009
+08-28-19,19:30:06.001,c,700008216000,,DownloadUpdateOperation.m(127),0,0,VRB,Started downloading... : https://g.live.com/0USSDMC_W5T/MacODSUProduction to /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/OneDriveVersion.xml
+08-28-19,19:30:06.271,d,700008216000,,DownloadUpdateOperation.m(138),0,0,VRB,Received server response : url: https://oneclient.sfx.ms/Mac/Prod/19.033.0218.0013/update100.xml, data size: 1081 bytes
+08-28-19,19:30:06.272,e,700008216000,,DownloadUpdateOperation.m(132),0,0,VRB,UpdaterDownload : created destination : /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/OneDriveVersion.xml
+08-28-19,19:30:06.283,f,700008216000,,DownloadUpdateOperation.m(103),0,0,VRB,Finished downloaded https://g.live.com/0USSDMC_W5T/MacODSUProduction
+08-28-19,19:30:06.284,10,700008216000,,CheckUpdateOperation.m(216),0,0,VRB,Parsing RootManifestVersion 1
+08-28-19,19:30:06.284,11,700008216000,,CheckUpdateOperation.m(239),0,0,VRB,Current entry, Throttle:100.000000, minApplicable:17.003.6389.0225, maxApplicable:19.999.9999.9999
+08-28-19,19:30:06.284,12,700008216000,,CheckUpdateOperation.m(80),0,0,VRB,Online version : 19.033.0218.0013
+08-28-19,19:30:06.284,13,700008216000,,CheckUpdateOperation.m(88),0,0,VRB,Minimum required version : 17.000.5001.0225
+08-28-19,19:30:06.284,14,700008216000,,CheckUpdateOperation.m(131),0,0,VRB,Current Update period : 86400 seconds
+08-28-19,19:30:06.284,15,700008216000,,CheckUpdateOperation.m(141),0,0,VRB,Binary url : https://oneclient.sfx.ms/Mac/Prod/19.033.0218.0013/OneDrive.zip
+08-28-19,19:30:06.284,16,700008216000,,CheckUpdateOperation.m(142),0,0,VRB,Sha1 hash : d47763437726533664ad568bedcdaa4727af5c44
+08-28-19,19:30:06.284,17,700008216000,,CheckUpdateOperation.m(143),0,0,VRB,Update period : 1440 minutes
+08-28-19,19:30:06.284,18,10a1ad5c0,,UpdateManager.mm(590),0,0,VRB,No update available at this time.
+08-28-19,19:30:09.404,19,10a1ad5c0,,UpdateManager.mm(424),0,0,VRB,Updater exits
+08-28-19,20:54:10.250,1,11247b5c0,,UpdateManager.mm(163),0,0,NRM,--------------------------------------------------------------------
+08-28-19,20:54:10.258,2,11247b5c0,,UpdateManager.mm(164),0,0,NRM,OneDriveUpdater (version 19070.0410.0009) started up, initialized logging.
+08-28-19,20:54:10.258,3,11247b5c0,,UpdateManager.mm(214),0,0,ERR,App at /Applications/OneDrive.app is not writable to the user
+08-28-19,20:54:10.269,4,11247b5c0,,UpdaterDaemonProxy.m(38),0,0,VRB,Initializing XPC connection with Mach Service Name: com.microsoft.OneDriveStandaloneUpdaterDaemon
+08-28-19,20:54:10.270,5,11247b5c0,,UpdateManager.mm(398),0,0,VRB,Performing Update...
+08-28-19,20:54:10.272,6,70000d97a000,,UpdateManager.mm(475),0,0,VRB,UpdateRing determination info. isMsftInternal:false isOfficeInternal:false isOfficeExternal:false isOfficeInsidersFast:false isOfficeInsiderFast:false
+08-28-19,20:54:10.272,7,70000d97a000,,UpdateManager.mm(475),0,0,VRB,UpdateRing determination info. isFasterRingChecked:false
+08-28-19,20:54:10.272,8,70000d97a000,,UpdateURLDetector.mm(38),0,0,NRM,Detecting url for ring: 5 for StandaloneUpdater
+08-28-19,20:54:10.272,9,70000d97a000,,UpdateURLDetector.mm(81),0,0,NRM,Using URL: https://g.live.com/0USSDMC_W5T/MacODSUProduction
+08-28-19,20:54:10.273,a,70000d97a000,,CheckUpdateOperation.m(150),0,0,VRB,Starting periodic check for updates...
+08-28-19,20:54:10.273,b,70000d97a000,,CheckUpdateOperation.m(167),0,0,VRB,Current version : 19.070.0410.0009
+08-28-19,20:54:10.275,c,70000d97a000,,DownloadUpdateOperation.m(127),0,0,VRB,Started downloading... : https://g.live.com/0USSDMC_W5T/MacODSUProduction to /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/OneDriveVersion.xml
+08-28-19,20:54:10.673,d,70000d97a000,,DownloadUpdateOperation.m(138),0,0,VRB,Received server response : url: https://oneclient.sfx.ms/Mac/Prod/19.033.0218.0013/update100.xml, data size: 1081 bytes
+08-28-19,20:54:10.674,e,70000d97a000,,DownloadUpdateOperation.m(132),0,0,VRB,UpdaterDownload : created destination : /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/OneDriveVersion.xml
+08-28-19,20:54:10.674,f,70000d97a000,,DownloadUpdateOperation.m(103),0,0,VRB,Finished downloaded https://g.live.com/0USSDMC_W5T/MacODSUProduction
+08-28-19,20:54:10.675,10,70000d97a000,,CheckUpdateOperation.m(216),0,0,VRB,Parsing RootManifestVersion 1
+08-28-19,20:54:10.675,11,70000d97a000,,CheckUpdateOperation.m(239),0,0,VRB,Current entry, Throttle:100.000000, minApplicable:17.003.6389.0225, maxApplicable:19.999.9999.9999
+08-28-19,20:54:10.675,12,70000d97a000,,CheckUpdateOperation.m(80),0,0,VRB,Online version : 19.033.0218.0013
+08-28-19,20:54:10.675,13,70000d97a000,,CheckUpdateOperation.m(88),0,0,VRB,Minimum required version : 17.000.5001.0225
+08-28-19,20:54:10.675,14,70000d97a000,,CheckUpdateOperation.m(131),0,0,VRB,Current Update period : 86400 seconds
+08-28-19,20:54:10.675,15,70000d97a000,,CheckUpdateOperation.m(141),0,0,VRB,Binary url : https://oneclient.sfx.ms/Mac/Prod/19.033.0218.0013/OneDrive.zip
+08-28-19,20:54:10.675,16,70000d97a000,,CheckUpdateOperation.m(142),0,0,VRB,Sha1 hash : d47763437726533664ad568bedcdaa4727af5c44
+08-28-19,20:54:10.675,17,70000d97a000,,CheckUpdateOperation.m(143),0,0,VRB,Update period : 1440 minutes
+08-28-19,20:54:10.675,18,11247b5c0,,UpdateManager.mm(590),0,0,VRB,No update available at this time.
+08-28-19,20:54:11.757,19,11247b5c0,,UpdateManager.mm(424),0,0,VRB,Updater exits
+09-09-19,20:55:34.679,1,11545d5c0,,UpdateManager.mm(163),0,0,NRM,--------------------------------------------------------------------
+09-09-19,20:55:34.679,2,11545d5c0,,UpdateManager.mm(164),0,0,NRM,OneDriveUpdater (version 19070.0410.0009) started up, initialized logging.
+09-09-19,20:55:34.679,3,11545d5c0,,UpdateManager.mm(214),0,0,ERR,App at /Applications/OneDrive.app is not writable to the user
+09-09-19,20:55:34.688,4,11545d5c0,,UpdaterDaemonProxy.m(38),0,0,VRB,Initializing XPC connection with Mach Service Name: com.microsoft.OneDriveStandaloneUpdaterDaemon
+09-09-19,20:55:34.692,5,11545d5c0,,UpdateManager.mm(398),0,0,VRB,Performing Update...
+09-09-19,20:55:34.694,6,7000078aa000,,UpdateManager.mm(475),0,0,VRB,UpdateRing determination info. isMsftInternal:false isOfficeInternal:false isOfficeExternal:false isOfficeInsidersFast:false isOfficeInsiderFast:false
+09-09-19,20:55:34.694,7,7000078aa000,,UpdateManager.mm(475),0,0,VRB,UpdateRing determination info. isFasterRingChecked:false
+09-09-19,20:55:34.694,8,7000078aa000,,UpdateURLDetector.mm(38),0,0,NRM,Detecting url for ring: 5 for StandaloneUpdater
+09-09-19,20:55:34.694,9,7000078aa000,,UpdateURLDetector.mm(81),0,0,NRM,Using URL: https://g.live.com/0USSDMC_W5T/MacODSUProduction
+09-09-19,20:55:34.696,a,7000078aa000,,CheckUpdateOperation.m(150),0,0,VRB,Starting periodic check for updates...
+09-09-19,20:55:34.696,b,7000078aa000,,CheckUpdateOperation.m(167),0,0,VRB,Current version : 19.070.0410.0009
+09-09-19,20:55:34.699,c,7000078aa000,,DownloadUpdateOperation.m(127),0,0,VRB,Started downloading... : https://g.live.com/0USSDMC_W5T/MacODSUProduction to /var/folders/q5/gjrmc_z529l3w96q_1b6zjphwny72j/T/OneDriveVersion.xml
+09-09-19,20:55:34.889,d,7000078aa000,,DownloadUpdateOperation.m(138),0,0,VRB,Received server response : url: https://oneclient.sfx.ms/Mac/Prod/19.033.0218.0013/update100.xml, data size: 1081 bytes
+09-09-19,20:55:34.889,e,7000078aa000,,DownloadUpdateOperation.m(132),0,0,VRB,UpdaterDownload : created destination : /var/folders/q5/gjrmc_z529l3w96q_1b6zjphwny72j/T/OneDriveVersion.xml
+09-09-19,20:55:34.931,f,7000078aa000,,DownloadUpdateOperation.m(103),0,0,VRB,Finished downloaded https://g.live.com/0USSDMC_W5T/MacODSUProduction
+09-09-19,20:55:34.931,10,7000078aa000,,CheckUpdateOperation.m(216),0,0,VRB,Parsing RootManifestVersion 1
+09-09-19,20:55:34.931,11,7000078aa000,,CheckUpdateOperation.m(239),0,0,VRB,Current entry, Throttle:100.000000, minApplicable:17.003.6389.0225, maxApplicable:19.999.9999.9999
+09-09-19,20:55:34.932,12,7000078aa000,,CheckUpdateOperation.m(80),0,0,VRB,Online version : 19.033.0218.0013
+09-09-19,20:55:34.932,13,7000078aa000,,CheckUpdateOperation.m(88),0,0,VRB,Minimum required version : 17.000.5001.0225
+09-09-19,20:55:34.932,14,7000078aa000,,CheckUpdateOperation.m(131),0,0,VRB,Current Update period : 86400 seconds
+09-09-19,20:55:34.932,15,7000078aa000,,CheckUpdateOperation.m(141),0,0,VRB,Binary url : https://oneclient.sfx.ms/Mac/Prod/19.033.0218.0013/OneDrive.zip
+09-09-19,20:55:34.932,16,7000078aa000,,CheckUpdateOperation.m(142),0,0,VRB,Sha1 hash : d47763437726533664ad568bedcdaa4727af5c44
+09-09-19,20:55:34.932,17,7000078aa000,,CheckUpdateOperation.m(143),0,0,VRB,Update period : 1440 minutes
+09-09-19,20:55:34.932,18,11545d5c0,,UpdateManager.mm(590),0,0,VRB,No update available at this time.
+09-09-19,20:55:36.007,19,11545d5c0,,UpdateManager.mm(424),0,0,VRB,Updater exits

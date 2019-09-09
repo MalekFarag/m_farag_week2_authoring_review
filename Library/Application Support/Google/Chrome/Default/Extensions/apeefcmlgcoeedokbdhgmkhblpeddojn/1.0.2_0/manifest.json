@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.muslimpro.com/"
+      },
+      "urls": [ "http://www.muslimpro.com/" ]
+   },
+   "description": "Accurate prayer times, adhan notifications and qibla directions worldwide.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD2N05l90vt7fhPzBATL08VMtM0QJ2nXNeoBDH2KJo8FDDrBgGGxhPPXC+oHjz2+Nzhh0jS07wZnlIwvvzFb2lREGfOSyjqP09ZTCA7TUA16FPSFNMlvJioppAbUCy4379v88+OTqBPauj7UDxtcq1VCaPFTg7F61rbbBtsWQTuaQIDAQAB",
+   "manifest_version": 2,
+   "name": "Muslim Pro",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}

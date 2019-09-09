@@ -1,0 +1,148 @@
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2019-08-28T18:53:27.541Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2019-08-28T18:53:27.542Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.1.0' ]","timestamp":"2019-08-28T18:53:27.649Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: /Applications/Unity Hub.app/Contents/MacOS/Unity Hub' ]","timestamp":"2019-08-28T18:53:27.649Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/Library/Application Support/Unity/config' } ]","timestamp":"2019-08-28T18:53:27.668Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2019-08-28T18:53:27.669Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2019-08-28T18:53:27.871Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:27.872Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Look for Hub updates from app-update.yml -> url' ]","timestamp":"2019-08-28T18:53:27.872Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2019-08-28T18:53:27.872Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.171Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2019-08-28T18:53:28.172Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Done init' ]","timestamp":"2019-08-28T18:53:28.190Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.190Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.303Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-darwin.json' ]","timestamp":"2019-08-28T18:53:28.303Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2019-08-28T18:53:28.305Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Custom install path not present.' ]","timestamp":"2019-08-28T18:53:28.306Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /Applications/Unity/Hub/Editor' ]","timestamp":"2019-08-28T18:53:28.307Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Cannot scan custom location (no path set).' ]","timestamp":"2019-08-28T18:53:28.307Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2019-08-28T18:53:28.307Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.308Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.308Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2019-08-28T18:53:28.308Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2019-08-28T18:53:28.313Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.314Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2019-08-28T18:53:28.315Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2019-08-28T18:53:28.436Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2019-08-28T18:53:28.436Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2019-08-28T18:53:28.437Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2019-08-28T18:53:28.437Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.437Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2019-08-28T18:53:28.437Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2019-08-28T18:53:28.437Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2019-08-28T18:53:28.437Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2019-08-28T18:53:28.437Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2019-08-28T18:53:28.438Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2019-08-28T18:53:28.438Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2019-08-28T18:53:28.440Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.441Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2019-08-28T18:53:28.444Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.445Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.445Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.445Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.445Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.474Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T18:53:28.475Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2019-08-28T18:53:28.603Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2019-08-28T18:53:28.603Z"}
+{"moduleName":"EditorPrefMac","level":"warn","message":"[ 'Exception happened while reading the editor Preferences',\n  { Error: ENOENT: no such file or directory, open '/Users/default/Library/Preferences/com.unity3d.UnityEditor5.x.plist'\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/Users/default/Library/Preferences/com.unity3d.UnityEditor5.x.plist' } ]","timestamp":"2019-08-28T18:53:28.612Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading installs page' ]","timestamp":"2019-08-28T18:53:28.613Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'iMac Intel Core i5 3 GHz 16 GB ; Mac OS X 10.14.6 18G87 Darwin 18.7.0' ]","timestamp":"2019-08-28T18:53:29.641Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2019-08-28T18:53:29.944Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2019.2.2f1: starting' ]","timestamp":"2019-08-28T18:54:46.081Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 2.09GB' ]","timestamp":"2019-08-28T18:54:46.249Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2019.2.2f1: downloads starting' ]","timestamp":"2019-08-28T18:54:46.249Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://beta.unity3d.com/download/ab112815d860/MacEditorTargetInstaller/UnitySetup-iOS-Support-for-Editor-2019.2.2f1.pkg to /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/UnitySetup-iOS-Support-for-Editor-2019.2.2f1.pkg' ]","timestamp":"2019-08-28T18:54:46.250Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://beta.unity3d.com/download/ab112815d860/MacEditorTargetInstaller/UnitySetup-Facebook-Games-Support-for-Editor-2019.2.2f1.pkg to /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/UnitySetup-Facebook-Games-Support-for-Editor-2019.2.2f1.pkg' ]","timestamp":"2019-08-28T18:54:46.251Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2019.2/UnityDocumentation.zip to /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/UnityDocumentation.zip' ]","timestamp":"2019-08-28T18:54:46.251Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://go.microsoft.com/fwlink/?linkid=2087047 to /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/monoframework-mdk-6.0.0.327.macos10.xamarin.universal.pkg' ]","timestamp":"2019-08-28T18:54:46.251Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://beta.unity3d.com/download/ab112815d860/MacEditorInstaller/Unity-2019.2.2f1.pkg to /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/Unity-2019.2.2f1.pkg' ]","timestamp":"2019-08-28T18:54:46.320Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2019.2.2f1: downloads starting, total size: 3.41GB)' ]","timestamp":"2019-08-28T18:54:46.321Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/UnitySetup-Facebook-Games-Support-for-Editor-2019.2.2f1.pkg' ]","timestamp":"2019-08-28T18:54:51.447Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/UnityDocumentation.zip' ]","timestamp":"2019-08-28T18:54:58.146Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/monoframework-mdk-6.0.0.327.macos10.xamarin.universal.pkg' ]","timestamp":"2019-08-28T18:55:15.440Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2019.2.2f1: Finished' ]","timestamp":"2019-08-28T18:55:24.678Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2019.2.2f1: end event for cluster' ]","timestamp":"2019-08-28T18:55:24.678Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/UnitySetup-iOS-Support-for-Editor-2019.2.2f1.pkg' ]","timestamp":"2019-08-28T18:55:24.678Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2019.2.2f1: end event for editor' ]","timestamp":"2019-08-28T18:55:24.685Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2019.2.2f1: Finished' ]","timestamp":"2019-08-28T18:55:24.685Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/Unity-2019.2.2f1.pkg' ]","timestamp":"2019-08-28T18:55:24.686Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Editor download ended successfully. Download id: 2019.2.2f1' ]","timestamp":"2019-08-28T18:55:28.580Z"}
+{"moduleName":"Installer","level":"info","message":"[ 'Install 2019.2.2f1: /var/folders/ss/ydftvcgx07s0rwfyl9d9h3qm0000gp/T/unityhub-4d847f20-c9c5-11e9-ba6d-d778da1459c6/Unity-2019.2.2f1.pkg to /Applications/Unity/Hub/Editor/2019.2.2f1 started' ]","timestamp":"2019-08-28T18:55:28.581Z"}
+{"moduleName":"Installer:ReleaseFileIO","level":"info","message":"[ 'write /Applications/Unity/Hub/Editor/2019.2.2f1/modules.json' ]","timestamp":"2019-08-28T19:09:37.578Z"}
+{"moduleName":"Installer:ReleaseFileIO","level":"info","message":"[ 'read /Applications/Unity/Hub/Editor/2019.2.2f1/modules.json' ]","timestamp":"2019-08-28T19:09:37.756Z"}
+{"moduleName":"EditorPrefMac","level":"warn","message":"[ 'Exception happened while reading the editor Preferences',\n  { Error: ENOENT: no such file or directory, open '/Users/default/Library/Preferences/com.unity3d.UnityEditor5.x.plist'\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/Users/default/Library/Preferences/com.unity3d.UnityEditor5.x.plist' } ]","timestamp":"2019-08-28T19:12:34.799Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2019-08-28T19:12:42.241Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.opened' ]","timestamp":"2019-08-28T19:12:42.241Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.create' ]","timestamp":"2019-08-28T19:12:42.241Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.createTemp' ]","timestamp":"2019-08-28T19:12:42.242Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.openedFromCloud' ]","timestamp":"2019-08-28T19:12:42.242Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: main-window.change' ]","timestamp":"2019-08-28T19:12:42.242Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'stopping web socket server. closing connections' ]","timestamp":"2019-08-28T19:12:42.242Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'emit stop child process of /tmp/Unity-hubIPCService.sock' ]","timestamp":"2019-08-28T19:12:42.242Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock and client closed' ]","timestamp":"2019-08-28T19:12:42.243Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2019-08-28T19:12:45.178Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2019-08-28T19:12:45.179Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.1.0' ]","timestamp":"2019-08-28T19:12:45.228Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: /Applications/Unity Hub.app/Contents/MacOS/Unity Hub' ]","timestamp":"2019-08-28T19:12:45.228Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/Library/Application Support/Unity/config' } ]","timestamp":"2019-08-28T19:12:45.247Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2019-08-28T19:12:45.248Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2019-08-28T19:12:45.392Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.395Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Look for Hub updates from app-update.yml -> url' ]","timestamp":"2019-08-28T19:12:45.395Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2019-08-28T19:12:45.395Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.435Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2019-08-28T19:12:45.436Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Done init' ]","timestamp":"2019-08-28T19:12:45.447Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.447Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.480Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-darwin.json' ]","timestamp":"2019-08-28T19:12:45.480Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2019-08-28T19:12:45.489Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'iMac Intel Core i5 3 GHz 16 GB ; Mac OS X 10.14.6 18G87 Darwin 18.7.0' ]","timestamp":"2019-08-28T19:12:45.511Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '1 out of 2 valid paths found in path: /Applications/Unity/Hub/Editor' ]","timestamp":"2019-08-28T19:12:45.512Z"}
+{"moduleName":"Installer:ReleaseFileIO","level":"info","message":"[ 'read /Applications/Unity/Hub/Editor/2019.2.2f1/modules.json' ]","timestamp":"2019-08-28T19:12:45.513Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Cannot scan custom location (no path set).' ]","timestamp":"2019-08-28T19:12:45.513Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2019-08-28T19:12:45.514Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.515Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.515Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2019-08-28T19:12:45.516Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2019-08-28T19:12:45.521Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.522Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2019-08-28T19:12:45.522Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2019-08-28T19:12:45.541Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2019-08-28T19:12:45.541Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2019-08-28T19:12:45.542Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2019-08-28T19:12:45.542Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.542Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2019-08-28T19:12:45.542Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2019-08-28T19:12:45.542Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2019-08-28T19:12:45.542Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2019-08-28T19:12:45.543Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2019-08-28T19:12:45.543Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2019-08-28T19:12:45.543Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2019-08-28T19:12:45.546Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.546Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2019-08-28T19:12:45.547Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.548Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.548Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.548Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.548Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.553Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2019-08-28T19:12:45.553Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2019-08-28T19:12:45.573Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2019-08-28T19:12:45.574Z"}
+{"moduleName":"EditorPrefMac","level":"warn","message":"[ 'Exception happened while reading the editor Preferences',\n  { Error: ENOENT: no such file or directory, open '/Users/default/Library/Preferences/com.unity3d.UnityEditor5.x.plist'\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/Users/default/Library/Preferences/com.unity3d.UnityEditor5.x.plist' } ]","timestamp":"2019-08-28T19:12:45.583Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading learn page' ]","timestamp":"2019-08-28T19:12:45.583Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2019-08-28T19:12:45.694Z"}
+{"moduleName":"PackageFinder","level":"warn","message":"[ { Error: ENOENT: no such file or directory, scandir '/Users/default/Library/Unity/Asset Store-5.x'\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'scandir',\n    path: '/Users/default/Library/Unity/Asset Store-5.x' } ]","timestamp":"2019-08-28T19:12:46.442Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2019-08-28T19:13:02.618Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.opened' ]","timestamp":"2019-08-28T19:13:02.618Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.create' ]","timestamp":"2019-08-28T19:13:02.618Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.createTemp' ]","timestamp":"2019-08-28T19:13:02.618Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.openedFromCloud' ]","timestamp":"2019-08-28T19:13:02.618Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: main-window.change' ]","timestamp":"2019-08-28T19:13:02.618Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'stopping web socket server. closing connections' ]","timestamp":"2019-08-28T19:13:02.619Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'emit stop child process of /tmp/Unity-hubIPCService.sock' ]","timestamp":"2019-08-28T19:13:02.619Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock and client closed' ]","timestamp":"2019-08-28T19:13:02.620Z"}

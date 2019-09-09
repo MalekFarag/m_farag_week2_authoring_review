@@ -1,0 +1,15 @@
+[0828/143241.499977:ERROR:cache_util.cc(134)] Unable to move cache folder GPUCache to old_GPUCache_000
+[0828/143241.516836:ERROR:disk_cache.cc(169)] Unable to create cache
+[0828/143241.516947:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0828/153016.517432:ERROR:cache_util.cc(134)] Unable to move cache folder GPUCache to old_GPUCache_000
+[0828/153016.534511:ERROR:disk_cache.cc(169)] Unable to create cache
+[0828/153016.534601:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0828/165416.599021:ERROR:cache_util.cc(134)] Unable to move cache folder GPUCache to old_GPUCache_000
+[0828/165416.635504:ERROR:disk_cache.cc(169)] Unable to create cache
+[0828/165416.635660:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0909/165534.835609:ERROR:cache_util.cc(140)] Unable to move cache folder GPUCache to old_GPUCache_000
+[0909/165534.836009:ERROR:disk_cache.cc(184)] Unable to create cache
+[0909/165534.836045:ERROR:shader_disk_cache.cc(622)] Shader Cache Creation failed: -2
+[0909/165543.150994:ERROR:cache_util.cc(140)] Unable to move cache folder GPUCache to old_GPUCache_000
+[0909/165543.151062:ERROR:disk_cache.cc(184)] Unable to create cache
+[0909/165543.151091:ERROR:shader_disk_cache.cc(622)] Shader Cache Creation failed: -2
